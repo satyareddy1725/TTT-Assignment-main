@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar{
+  @apply bg-black text-white flex h-20 
+  xxs:w-[90%] xxs:ml-[5.5%] 
+  xs:w-[80%] xs:ml-[10%]
+  xmd:w-[75%] xmd:ml-[12%] 
+  md:w-[70%] md:ml-[14.5%]
+  lg:w-[60%] lg:ml-[19%] 
+  xl:w-[50%] xl:ml-[25%]
+}
+.nav{
+  @apply flex justify-center content-center my-[1%]
+}
+.logo{
+  @apply w-[46%] h-10 ml-[100%] mr-[14%] mt-[12%] pr-[8%] border-r-2 border-yellow-500
+}
+.course-button{
+  @apply bg-yellow-500 mt-[4%] ml-[35%] h-8 w-[25%] rounded-md text-black font-bold text-sm lg:mt-[1.5%] sm:mt-[4%] sm:ml-[44%]
+} 
+.stories{
+  @apply mt-[20%] tracking-widest ml-0 text-sm
+}
+
+
+/* ============================================================================================================================================ */
+
+.bg{
+  @apply h-40 
+}
+.profile{
+  @apply  
+  xxs:w-[90%] xxs:ml-[5.5%] 
+  xs:w-[80%] xs:ml-[10%]
+  xmd:w-[75%] xmd:ml-[12%] 
+  md:w-[70%] md:ml-[14.5%]
+  lg:w-[60%] lg:ml-[19%] 
+  xl:w-[50%] xl:ml-[25%]
+}
+.profile-image{
+  @apply rounded-full h-custom translate-y-[-20%] w-[100%] sm:h-custom
+  xs:w-[90%] xs:h-40
+  md:w-[100%] md:h-40 lg:w-[90%] lg:ml-[20%]
+  xmd:w-[120%] xmd:h-40
+  xlg:w-[100%] xlg:h-60
+  xl:w-[100%] xl:ml-[4%]
+}
+.profile-details{
+  @apply grid-cols-2 grid w-[70%] ml-[10%]
+}
+
+.followers{
+  @apply flex text-gray-500 font-bold mt-[4%]
+}
+.followers-details{
+  @apply border-2 rounded-lg flex justify-center content-center text-base
+}
+/* followers and no.of followers */
+.details{
+  @apply mr-[8%] text-lg
+}
+
+/* Name and tick, diamong images */
+.side-image{
+  @apply w-[10%] h-4 ml-[2%] mt-[4%] sm:w-[12%] sm:h-6 sm:mt-[2%] lg:w-[6.5%] 
+}
+.name{
+  @apply flex
+}
+.name-follower{
+  @apply ml-[2%] mt-[14%] h-20
+}
+
+/* ============================================================================================================================================ */
+
+.user-details{
+  @apply text-xs ml-[10%] mt-[3%] leading-4 sm:text-base sm:tracking-wider
+}
+.all-icons{
+  @apply mt-[4%] text-sm flex content-center ml-[10%] space-x-4 sm:tracking-wider
+}
+.icon{
+  @apply text-white text-xs px-1
+}
+
+/*=====================================Posts===================================================================================================*/
+
+/* .all-posts{
+  @apply 
+} */
+
+.all-posts{
+  @apply
+  xxs:w-[90%] xxs:ml-[5.5%] 
+  xs:w-[80%] xs:ml-[10%]
+  xmd:w-[75%] xmd:ml-[12%] 
+  md:w-[70%] md:ml-[14.5%]
+  lg:w-[60%] lg:ml-[19%] 
+  xl:w-[50%] xl:ml-[25%]
+}
+
+.post-num{
+  @apply mt-[12%] border-t-2 w-[35%] border-e-2 pl-4 text-blue-500 font-semibold
+}
+
+.list-posts{
+  @apply pl-5 mt-[5%]
+}
+
+.heading{
+  @apply font-bold my-[7%] grid grid-cols-2
+}
+.description{
+  @apply mb-[6%]
+}
+
+.posts{
+  @apply mb-[9%] border-b-2
+}
+.border{
+  @apply border-t-2 translate-x-[57.4%] w-[60%] sm:translate-x-[50%] sm:w-[60%] xs:w-[70%] xs:translate-x-[49.4%]
+  xmd:translate-x-[57.4%] xmd:w-[60%]
+}
+
+.read-time{
+  @apply ml-[6%] 
+}
+
+.author{
+  @apply text-xs w-[100%] tracking-tighter mb-[5%]
+}
+
+
+.thumb{
+  @apply rounded-full bg-yellow-400 text-white px-1 ml-[75%]
+}

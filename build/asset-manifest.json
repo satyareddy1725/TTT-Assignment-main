@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9269dcfb.css",
+    "main.js": "/static/js/main.e7e59277.js",
+    "static/media/bg.jpg": "/static/media/bg.9b4fb818e6b7df16091b.jpg",
+    "static/media/Anuj.jpg": "/static/media/Anuj.374f654e36f33ea50162.jpg",
+    "static/media/tick.jpg": "/static/media/tick.d1e197537babe7d38662.jpg",
+    "static/media/logo.png": "/static/media/logo.1ada4332cbfc0adf6517.png",
+    "index.html": "/index.html",
+    "main.9269dcfb.css.map": "/static/css/main.9269dcfb.css.map",
+    "main.e7e59277.js.map": "/static/js/main.e7e59277.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9269dcfb.css",
+    "static/js/main.e7e59277.js"
+  ]
+}
